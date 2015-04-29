@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB07C4AA-FE20-4E55-81B8-79215F55CDB0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lighthouse</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>715A7C39C85FAD7C1EDA6B513F3849122B3291C1</key>
+		<string>https://github.com/vijaytholpadi/VTLighthouse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lighthouse.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>715A7C39C85FAD7C1EDA6B513F3849122B3291C1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vijaytholpadi/VTLighthouse.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>715A7C39C85FAD7C1EDA6B513F3849122B3291C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>715A7C39C85FAD7C1EDA6B513F3849122B3291C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VTLighthouse</string>
+		</dict>
+	</array>
+</dict>
+</plist>
