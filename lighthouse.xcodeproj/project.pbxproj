@@ -22,6 +22,7 @@
 		CD2B77861AEE5B5500371085 /* VTNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B77781AEE5B5500371085 /* VTNetworkResponse.m */; };
 		CD2B77891AEE5B5500371085 /* VTNoInternetView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B77821AEE5B5500371085 /* VTNoInternetView.m */; };
 		CD2B778A1AEE5B5500371085 /* VTNoInternetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2B77831AEE5B5500371085 /* VTNoInternetView.xib */; };
+		CD2B778E1AF0DCBA00371085 /* LHBeaconMonitoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B778D1AF0DCBA00371085 /* LHBeaconMonitoringViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		CD2B77811AEE5B5500371085 /* VTNoInternetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNoInternetView.h; sourceTree = "<group>"; };
 		CD2B77821AEE5B5500371085 /* VTNoInternetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNoInternetView.m; sourceTree = "<group>"; };
 		CD2B77831AEE5B5500371085 /* VTNoInternetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VTNoInternetView.xib; sourceTree = "<group>"; };
+		CD2B778C1AF0DCBA00371085 /* LHBeaconMonitoringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBeaconMonitoringViewController.h; sourceTree = "<group>"; };
+		CD2B778D1AF0DCBA00371085 /* LHBeaconMonitoringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBeaconMonitoringViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,7 @@
 		CD2B77611AEE1C6800371085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD2B778B1AF0DC9500371085 /* LHBeaconMonitoringViewController */,
 				CD2B77691AEE35BD00371085 /* LHBeaconDetailViewController */,
 				CD2B77651AEE23F100371085 /* LHRangingViewController */,
 			);
@@ -253,6 +257,15 @@
 				CD2B77831AEE5B5500371085 /* VTNoInternetView.xib */,
 			);
 			path = TNNoInternetView;
+			sourceTree = "<group>";
+		};
+		CD2B778B1AF0DC9500371085 /* LHBeaconMonitoringViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B778C1AF0DCBA00371085 /* LHBeaconMonitoringViewController.h */,
+				CD2B778D1AF0DCBA00371085 /* LHBeaconMonitoringViewController.m */,
+			);
+			path = LHBeaconMonitoringViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2B773F1AEE160300371085 /* AppDelegate.m in Sources */,
+				CD2B778E1AF0DCBA00371085 /* LHBeaconMonitoringViewController.m in Sources */,
 				CD2B77861AEE5B5500371085 /* VTNetworkResponse.m in Sources */,
 				CD2B77681AEE23FB00371085 /* LHRangingViewController.m in Sources */,
 				CD2B773C1AEE160300371085 /* main.m in Sources */,
