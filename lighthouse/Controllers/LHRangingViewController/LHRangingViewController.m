@@ -32,8 +32,6 @@
     [self.beaconsTableView setDelegate:self];
     [self.beaconsTableView setDataSource:self];
     
-    UIAlertView *alertView = [[UIAlertView alloc]init];
-    
     self.beacons = [[NSMutableDictionary alloc] init];
     
     // This location manager will be used to demonstrate how to range beacons.

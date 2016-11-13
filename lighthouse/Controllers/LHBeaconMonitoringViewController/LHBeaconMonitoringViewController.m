@@ -56,6 +56,7 @@
     
     CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:[NSUUID UUID] identifier:BeaconIdentifier];
     region = [self.locationManager.monitoredRegions member:region];
+    
     if(region)
     {
         self.enabled = YES;

@@ -11,7 +11,7 @@
 @implementation VTNoInternetView
 
 -(void)awakeFromNib{
-    
+    [super awakeFromNib];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     
 }
